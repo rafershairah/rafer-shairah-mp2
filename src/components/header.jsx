@@ -14,7 +14,7 @@ import { NavLink, useLocation } from "react-router-dom";
 import compare from "../assets/images/compare.svg";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
-import logo from "../assets/images/apneck.png";
+import logo from "../assets/images/logo.png";
 
 const header = () => {
   const [showMenu, setShowMenu] = useState(false);
