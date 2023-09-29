@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <ShopContext>
-        <BrowserRouter>
+        <BrowserRouter basename="/rafer-shairah-mp2">
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Layout />}>
