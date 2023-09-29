@@ -30,7 +30,7 @@ function App() {
   return (
     <>
       <ShopContext>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Layout />}>
