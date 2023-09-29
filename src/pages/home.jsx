@@ -73,18 +73,14 @@ const home = () => {
       <section className="repair-services p-5">
         <div className="container-xxl">
           <div className="row ">
-            <div className="videoplayer">
-              {" "}
-              <video src={Video} autoPlay loop muted />
-              <div className="repair-details text-center align-items-center">
-                <h5 className="mb-3 text-black">
-                  Unlock Your Radiance: Where Beauty Meets Science!
-                </h5>
-                <h2 className="mb-3 text-black">
-                  Check All Products And Accessories
-                </h2>
-                <button>Explore Now</button>
-              </div>
+            <div className="repair-details text-center align-items-center">
+              <h5 className="mb-3 text-black">
+                Unlock Your Radiance: Where Beauty Meets Science!
+              </h5>
+              <h2 className="mb-3 text-black">
+                Check All Products And Accessories
+              </h2>
+              <button>Explore Now</button>
             </div>
           </div>
         </div>

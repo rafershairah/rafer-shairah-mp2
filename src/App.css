@@ -188,8 +188,9 @@ input:focus {
 .banner .back-details h1 {
   font-size: 52px;
   color: #ffffff;
-  text-align: end;
-  margin-left: 370px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 200px;
 }
 
 .banner .back-details p {
@@ -370,6 +371,10 @@ input:focus {
 .videoplayer {
   height: 70%;
   width: 100%;
+}
+
+.videoplayer {
+  width: max-content;
 }
 
 .repair-details {
