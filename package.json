@@ -1,6 +1,6 @@
 {
   "name": "shairahmaerafer.vite",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": "https://rafershairah.github.io/rafer-shairah-mp2",
   "type": "module",
