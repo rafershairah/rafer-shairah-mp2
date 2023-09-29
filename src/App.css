@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700&display=swap");
 
 :root {
-  --primary: #00a97f;
+  --primary: #332f2f;
   --light: rgba(133, 198, 218, 255);
   --dark: rgba(13, 13, 10, 255);
   --darker: rgba(234, 157, 90, 255);
-  --lighter: #cbd6cf;
-  --lighter1: #c3dacc86;
-  --lighter2: #e4f0e9da;
+  --lighter: #e4cfb3;
+  --lighter1: #ffc7d8;
+  --lighter2: #f594e2da;
   --darken: #cca27e;
-  --color: orangered;
-  --search: #ff6000;
-  --primary1: #2b3d4c;
-  --primary2: #354d61;
+  --color: rgb(255, 164, 164);
+  --search: #ffed63;
+  --primary1: #a3534a;
+  --primary2: #fc8eac;
 }
 
 * {
@@ -69,6 +69,7 @@ input:focus {
   max-width: 100%;
   height: 40px;
 }
+
 .navbar-top {
   background-color: var(--lighter1);
 }
@@ -186,13 +187,14 @@ input:focus {
 }
 .banner .back-details h1 {
   font-size: 52px;
-}
-.banner .back-details h2 {
-  font-size: 32px;
+  color: #ffffff;
+  text-align: end;
+  margin-left: 370px;
 }
 
 .banner .back-details p {
-  color: var(--primary1);
+  color: #fcec70;
+  font-size: 45px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -365,11 +367,15 @@ input:focus {
   right: 80px;
 }
 
-.repair-details {
-  background: url(/src/assets/images/banner/b2.jpg);
-  background-size: cover;
+.videoplayer {
+  height: 70%;
   width: 100%;
-  height: 30vh;
+}
+
+.repair-details {
+  background: url(assets/images/bg.jpg);
+  width: 100%;
+  height: 50vh;
   justify-content: center;
   background-position: center;
   justify-content: center;
@@ -419,27 +425,6 @@ input:focus {
 
 .new-arrivals .card:hover {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.08);
-}
-.hot-deals .card {
-  padding: 12px 10px;
-}
-
-.hot-deals .card img {
-  min-height: 180px;
-  justify-content: center;
-}
-
-.hot-deals button {
-  color: white;
-  background-color: var(--darker);
-  transition: 0.5s;
-  border: 1px solid transparent;
-}
-
-.hot-deals button:hover {
-  background: transparent;
-  color: var(--search);
-  border: 1px solid var(--darker);
 }
 
 .blogs .card img {
@@ -536,7 +521,7 @@ footer .footer-tel:hover {
 
 /* shop starts here */
 .shop-banner {
-  background: url(/src/assets/images/banner/b1.jpg);
+  background: url(/src/assets/images/bg.jpg);
   background-size: cover;
   width: 100%;
   height: 30vh;
@@ -1078,4 +1063,32 @@ footer .footer-tel:hover {
 .checkout .payment-card-body {
   flex: 1 1 auto;
   padding: 24px 1rem !important;
+}
+
+.announcement {
+  background: var(--search);
+  color: #212529;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 0.8rem;
+}
+
+.announcement-text {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.text1 span {
+  margin-right: 2rem;
+}
+
+.text2 span:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.text2 span:last-child {
+  margin-right: 1rem;
 }

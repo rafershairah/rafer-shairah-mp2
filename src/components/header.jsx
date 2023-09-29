@@ -15,6 +15,7 @@ import compare from "../assets/images/compare.svg";
 import wishlist from "../assets/images/wishlist.svg";
 import user from "../assets/images/user.svg";
 import logo from "../assets/images/logo.png";
+import Announcement from "./announcement";
 
 const header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -28,44 +29,9 @@ const header = () => {
 
   return (
     <>
-      <header className="navbar-top p-2">
-        <div className="container-xxl">
-          <div className="row">
-            <div className="d-flex align-items-center justify-content-between d-none d-md-flex">
-              <div className="col-md-8 me-auto">
-                <p>The trending outfits at 100% off</p>
-              </div>
-              <div className="col-md-2">
-                <a href="tel:+254708118414">Call us at +1 (234) 567-890</a>
-              </div>
-              <div className="col-md">
-                <Link className="links fs-4">
-                  <CiMail />
-                </Link>
-                <Link className="links fs-4">
-                  <BiPhoneCall />
-                </Link>
-              </div>
-            </div>
-            <div className="d-flex align-items-center  justify-content-between d-md-none">
-              <div className="col-md-6 me-auto">
-                <p>Save Upto 100%</p>
-              </div>
-              <div className="col-md-2 m-auto">
-                <a href="tel:+254708118414">Call us</a>
-              </div>
-              <div className="col-md-2 m-auto">
-                <Link className="links fs-4">
-                  <CiMail />
-                </Link>
-                <Link className="links fs-4">
-                  <BiPhoneCall />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
+      <div>
+        <Announcement />
+      </div>
       <header className="navbar-middle sticky-top p-2 p-md-2 p-lg-2">
         <div className="container-xxl">
           <div className="row align-items-center m-0">
